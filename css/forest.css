@@ -1,0 +1,594 @@
+html, body {height:99%;margin:0;padding:0; overflow-y: hidden;}
+body{
+	background-color:#0a190f;
+	height:100%;
+	font:Arial, Helvetica, sans-serif;
+	color:#d9e1f8;
+}
+  .outer-ring{
+	  padding:4px;
+	  margin:4px;
+	  height:100%;
+  }
+  #inner{
+	  height:100%;
+	  width:100%;
+	  padding:2px;
+  }
+  #left{
+	  width:20%;
+	  vertical-align:top;
+	  height:100%;
+  }
+  #center{
+	  width:60%;
+	  vertical-align:top;
+	  height:100%;
+  }
+  #right{
+	  width:20%;
+	  height:100%;
+	  vertical-align:top;
+  }
+  .innerleft{
+	  width:100%;
+	  height:100%;
+  }
+  #innerlefttop{
+	  border:1px solid #1b3824;
+	  background-color:#0c1f12;
+	  height:44%;
+	  padding:4px;
+	  width:100%;
+          vertical-align:top;
+          font-family:Arial, Helvetica, sans-serif;
+  }
+   #innerlefttoptd{
+    overflow:auto;
+    height:310px;
+    padding:4px;
+    vertical-align:top;
+    font-family:Arial, Helvetica, sans-serif;
+   }
+  #innerleftmid{
+	   border:1px solid #1b3824;
+	   background-color:#0c1f12;
+	  height:44%;
+	  padding:4px;
+	  width:100%;
+          vertical-align:top;
+          font-family:Arial, Helvetica, sans-serif;
+  } 
+  #innerleftmidlower{
+	  border:1px solid #1b3824;
+	  background-color:#0c1f12;
+	  height:15px;
+	  padding:4px;
+	  width:100%;
+	  text-align:center;
+          vertical-align:top;
+  }
+  #innerleftbottom{
+	  border:1px solid #1b3824;
+	  background-color:#0c1f12;
+	  height:13px;
+	  padding:4px;
+	  width:100%;
+	  text-align:center;
+  }
+  .innerright{
+	  width:100%;
+	  height:100%;
+  }
+  #innerrighttoptd{
+    overflow:auto;
+    height:310px;
+    vertical-align:top;
+    font-family:Arial, Helvetica, sans-serif;
+   }
+  #innerrighttop{
+	  border:1px solid #1b3824;
+	  background-color:#0c1f12;
+	  height:44%;
+	  padding:4px;
+	  width:100%;
+          vertical-align:top;
+          font-family:Arial, Helvetica, sans-serif;
+  }
+  #innerrightmid{
+	   border:1px solid #1b3824;
+	   background-color:#0c1f12;
+	  height:44%;
+	  padding:4px;
+	  width:100%;
+          vertical-align:top;
+          font-family:Arial, Helvetica, sans-serif;
+  }
+  #innerrightmidlower{
+	  border:1px solid #1b3824;
+	  background-color:#0c1f12;
+	  height:13px;
+	  padding:4px;
+	  width:100%;
+	  text-align:center;
+  }
+  #innerrightbottom{
+	  border:1px solid #1b3824;
+	  background-color:#0c1f12;
+	  height:13px;
+	  padding:4px;
+	  width:100%;
+	  text-align:center;
+  }
+  #innercenter{
+	  width:100%;
+	  height:100%;
+  }
+  #innercentertop{
+	  width:100%;
+	  border:1px solid #1b3824;
+	  background-color:#0c1f12;
+	  padding:4px;
+	  height:44%;
+          vertical-align:top;
+          font-family:Arial, Helvetica, sans-serif;
+  }
+  #innercentermid{
+	   width:100%;
+	  border:1px solid #1b3824;
+	  background-color:#0c1f12;
+	  padding:1px;
+	  padding-right:4px;
+	  height:44%;
+          max-height:300px;
+          overflow:auto;
+          font-family:Arial, Helvetica, sans-serif;
+          vertical-align:top;
+  }
+  #innercenterbottom{
+	    border:1px solid #1b3824;
+		background-color:#0c1f12;
+	  height:13px;
+	  padding:1px;
+	  padding-left:4px;
+	  width:100%;
+	  
+	  
+  }
+  .chatmsg{
+	  width:90%;
+	  background-color:#1b3824;
+	  border:1px solid #401d23;
+	  height:17px;
+	  padding-top:1px;
+          padding-left:4px;
+          padding-bottom:4px;
+          vertical-align:top;
+          margin-top:2px;
+  }
+  #Submit{
+	  border:none;
+	  background-color:#0c1f12;
+	  font-family:Arial, Helvetica, sans-serif;
+	  font-size:1em;
+	  color:#1a6512;
+  }
+  .chatselection{
+	    border:1px solid #1b3824;
+		background-color:#0c1f12;
+	  height:11px;
+	  padding:1px;
+	  width:100%;
+	  font-family:Arial, Helvetica, sans-serif;
+  }
+  .world {
+color:#d9e1f8;
+cursor:pointer;
+}
+
+.guild {
+color:#4CC417;
+cursor:pointer;
+}
+
+.help {
+color:#FFF380;
+cursor:pointer;
+}
+
+.trade {
+color:#8D38C9;
+cursor:pointer;
+}
+
+.guide {
+color:#43BFC7;
+cursor:pointer;
+}
+.admin{
+color:#ea0606;
+cursor:pointer;
+}
+.server{
+color:yellow;
+cursor:pointer;
+}
+.StaffChat{
+color:#ADA96E;
+cursor:pointer;
+}
+#innerlinks{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#1a6512;
+	text-decoration:none;
+	font-size:1em;
+	spacing:2px;
+}
+.clock
+{
+	background-color:transparent;
+	border:none;
+	padding:6px;
+	color:#D9E1F8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	display:inline;
+}
+.back{
+background-color:#0c1f12;
+width:100%;
+height:100%;
+padding:1px;
+}
+
+.link{
+cursor:pointer;
+color:#1a6512;
+font-size:14px;
+text-decoration:none;
+spacing:2px;
+font-family:arial;
+margin-left:5px;
+margin-right:5px;
+}
+
+#chatmsg {
+width:91%;
+background-color:#0a190f;
+border:1px solid #1b3824;
+color:#d9e1f8;
+}
+
+.town {
+font-size:14px;
+color:#d9e1f8;
+cursor:pointer;
+}
+
+.town2 {
+font-size:16px;
+color:#d9e1f8;
+}
+
+.town_desc {
+font-size:12px;
+color:#d9e1f8;
+}
+
+.character {
+font-size:15px;
+color:#d9e1f8;
+}
+
+.skill {
+font-size:15px;
+color:#d9e1f8;
+}
+
+.other {
+font-size:13px;
+color:#d9e1f8;
+height:10%;
+}
+
+#doll{
+position:absolute; 
+color:White;
+left:25%; 
+top:7%; 
+border:2px solid #1b3824; 
+display:none; 
+text-align:center; 
+width:600px; 
+height:300px; 
+background-color:#0c1f12;
+}
+
+#guild{
+position:absolute; 
+color:White;
+left:25%; 
+top:7%; 
+border:2px solid #1b3824; 
+display:none; 
+text-align:center; 
+width:700px; 
+height:400px; 
+background-color:#0c1f12;
+}
+
+#map{
+position:absolute; 
+color:White;
+left:25%; 
+top:7%; 
+border:2px solid #1b3824;  
+display:none; 
+text-align:center; 
+width:500px; 
+height:400px; 
+background-color:#0c1f12;
+}
+#message{
+position:absolute; 
+color:White;
+left:25%; 
+top:7%; 
+border:2px solid #1b3824; 
+display:none; 
+text-align:center; 
+width:700px; 
+height:400px; 
+background-color:#0c1f12;
+}
+
+#message_area{
+overflow:auto;
+height:330px;	
+}
+
+#admin{
+position:absolute; 
+color:White;
+left:25%; 
+top:7%; 
+border:2px solid #1b3824; 
+display:none; 
+text-align:center; 
+width:700px; 
+height:400px; 
+background-color:#0c1f12;
+cursor:pointer;
+}
+#special2{
+overflow:auto;
+height:360px;	
+font-size:13px;
+}
+
+#special1{
+overflow:auto;
+height:360px;	
+}
+
+#mod{
+position:absolute; 
+color:White;
+left:25%; 
+top:7%; 
+border:2px solid #1b3824; 
+display:none; 
+text-align:center; 
+width:700px; 
+height:400px; 
+background-color:#0c1f12;
+cursor:pointer;
+}
+
+.doll_heading {
+font-size:14px;
+}
+
+.doll_other {
+font-size:13px;
+}
+
+.action {
+font-size:13px;
+color:#d9e1f8;
+cursor:pointer;
+}
+
+.mod{
+color:#065cea;
+cursor:pointer;
+}
+#timer2{
+font-size:13px;
+color:#d9e1f8;
+}
+
+#txt{
+font-size:35px;
+color:White;
+border:0px;
+text-align:center;
+background-color:#0c1f12;
+font-weight: bold;
+}
+
+.speed {
+font-size:13px;
+color:#d9e1f8;
+}
+
+#usermenu{
+margin-left:5px;
+}
+
+#character {
+margin-left:5px;
+}
+
+#inventory {
+margin-left:5px;
+}
+
+#skills {
+margin-left:5px;
+}
+
+#contents{
+overflow:auto;
+height:700px;	
+width:400;
+}
+
+#main_tables
+{
+width:100%;
+border-collapse:collapse;
+height:15px;
+}
+
+#main_tables td, #main_tables th 
+{
+height:15px;
+border:1px solid #1b3824; 
+}
+
+#main_tables tr.alt td 
+{
+height:15px;
+}
+
+#main_tables2
+{
+width:100%;
+border-collapse:collapse;
+height:15px;
+}
+
+#main_tables2 td, #main_tables2 th 
+{
+height:15px;
+background-color:#0c1f12;
+border:2px solid #1b3824; 
+}
+
+#main_tables2 tr.alt td 
+{
+height:15px;
+}
+
+.title{
+vertical-align:top;
+font-size:19px;
+}
+
+.input{
+color:#d9e1f8;
+border:1px solid #1b3824; 
+background-color:#0c1f12;
+}
+
+.message_send {
+font-size:14px;
+color:#d9e1f8;
+}
+
+.new{ 
+font-size:11px;
+color:#d9e1f8;
+}
+
+.admin_header{
+font-size:14px;
+}
+#chatlog{
+overflow:auto;
+height:300px;
+width:100%;
+min-height:100%;
+}
+#push{
+padding-top:5px;
+}
+.chatlink{ 
+     text-decoration:none;
+     font-family:arial;
+     color:#a1ff00;
+     font-size:12px;
+
+}
+.chatlink:hover{
+     text-decoration:underline;
+}
+
+
+#settings{
+position:absolute; 
+color:White;
+left:25%; 
+top:7%; 
+border:2px solid #1b3824; 
+display:none; 
+text-align:center; 
+width:700px; 
+height:400px; 
+background-color:#0c1f12;
+cursor:pointer;
+}
+
+#inventory_popup{
+position:absolute; 
+color:White;
+left:5%; 
+top:5%; 
+border:2px solid #1b3824; 
+display:none; 
+text-align:center; 
+width:85%; 
+height:85%; 
+background-color:#0c1f12;
+}
+
+#inventory_table{
+border-collapse:collapse;
+border:1px solid green;
+}
+#inventory_table td
+{
+        color:#D9E1F8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+border:1px solid #1b3824;
+padding:3px 7px 2px 7px;
+}
+.inven_menu_links{
+        color:#D9E1F8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+        text-align:left;
+        background-color:#0a190f;
+        border:1px solid #1b3824;
+        padding:3px;
+        margin-bottom:2px;
+}
+
+.guild_text{
+font-size:13px;
+color:white;
+}
+
+#guild_apply{
+color:white;
+border:1px solid #660000; 
+background-color:Black;
+}
+
+.guild_delete_request{
+font-size:11px;
+color:white;
+cursor:pointer;
+}
