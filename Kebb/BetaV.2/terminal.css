@@ -1,0 +1,34 @@
+/* Created by Kebb Marcum */
+/* Do not use without permission. */
+/* For permissions, */
+/* Contact admin[at]falloutchronicle[dot]com */
+
+/* Things are commented out for developer use only */
+
+body{
+	background-color:#000;
+	height:600px;
+	width:600px;
+	border:none;
+	}
+#insert{
+	position:absolute;
+	top:50px;
+	left:250px;
+	padding:2px;
+	width:500px;
+	height:500px;
+	border:1px solid #0F0;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#0F0;
+	vertical-align:top;
+	text-align:center;
+	}
+#topterm{
+	position:absolute;
+	top:5px;
+	left:5px;
+	right:5px;
+	height:250px;
+	width:490px;
+	}
