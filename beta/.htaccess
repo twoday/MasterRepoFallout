@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Beta"
+AuthUserFile "/home/fallou/.htpasswds/public_html/beta/passwd"
+require valid-user

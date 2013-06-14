@@ -1,0 +1,358 @@
+/* Resets */
+    ul {
+        padding:0;
+        margin:0 0 20px 0;
+        list-style:none;
+    }
+    h1, h2 {
+        padding:0;
+        margin:0 0 20px 0;
+        font-weight:normal;
+    }
+    p {
+        padding:0;
+        margin:0 0 20px 0;
+    }
+    
+	ul li {
+        padding:5px 0;
+    }
+    ul li input[type="text"], ul li input[type="password"] {
+        width:200px;
+    }
+	
+	textarea{
+		width:400px;
+		height:150px;
+	}
+	
+/* Links */
+   .links { 
+   text-decoration:none;
+   font-family:century gothic;
+   color:#FFF;
+   }
+   
+   .t-link {
+   text-decoration:none;
+   font-family:century gothic;
+   color:#F76541;
+   }
+   
+   .t-link2 {
+   text-decoration:none;
+   font-family:century gothic;
+   color:#F76541;
+   font-size:14px;
+   }
+    
+	a:hover {
+        text-decoration:underline;
+    }
+	
+    /* Headers */
+    h1 {
+        font-size:1.8em;
+    }
+    h2 {
+        font-size:1.4em;
+    }
+    .logo {
+        margin:0 0 10px 0;
+        padding:0;
+        width:200px;
+       
+    }
+    /* Containers */
+    body {
+	    border-radius:5px 5px 0 0;
+        background-color:#0a0909;
+      
+        font-size:0.8em;
+		font-family:century gothic;
+		
+    }
+    
+    header {
+       
+        padding:10px;
+        margin:0 auto 10px auto;
+    }
+    #container {
+	    border-radius:15px 15px 0 0;
+        background-color:#111;
+		min-height:500px;
+		padding:5px;
+		font-family:verdana;
+		color:#d9e1f8;
+		width:800px;
+		margin:0 auto;
+		border:1px dashed white;
+		padding-left:10px;
+		padding-top:10px;
+		
+    }
+    #doncontainer {
+	    border-radius:15px 15px 0 0;
+        background-color:#111;
+		min-height:800px;
+                height:auto;
+		padding:5px;
+		font-family:verdana;
+		color:#d9e1f8;
+		width:800px;
+		margin:0 auto;
+		border:1px dashed white;
+		padding-left:10px;
+		padding-top:10px;
+		
+    }
+    footer {
+	    background-color:#111;
+        border-radius:0 0 15px 15px;
+		width:815px;
+		height:50px;
+		margin:0 auto;
+		border:1px dashed white;
+    }
+    .widget {
+        margin-bottom:20px;
+    }
+    .widget h2 {
+        margin:0 0 10px 0;
+        padding:0 5px;
+        font-weight:normal;
+        border-bottom:1px solid #ddd;
+    }
+    .widget .inner {
+        margin:0 10px;
+    }
+  
+    /* Aside */
+    aside {
+        width:250px;
+        float:right;
+        border-left:1px dashed #aaa;
+        padding-left:15px;
+    }
+	
+    /* Login */
+    #login li.link {
+        margin-top:5px;
+    }
+    /* Footer */
+    footer {
+        border-top:1px dashed #ddd;
+        color:#999;
+    }
+    /* Misc */
+    .clear {
+        clear:both;
+    }
+	
+	#errors {
+		width:50%;
+	    font-family:century gothic;
+		color:red;
+	}
+	
+	#rules {
+		font-family:Veranda;
+	}
+
+     .conall {
+          border:none;
+          margin-right:10%;
+          margin-left:7%;
+        }
+     .donconall {
+          border:none;
+          height:auto;
+          margin-right:10%;
+          margin-left:7%;
+        }
+     .concenter {
+        margin:5%;
+        height:auto;
+        width:600px;
+        border:none;
+        }
+     .donconcenter {
+        margin:5%;
+        height:800;
+        width:600px;
+        border:none;
+        }
+     .mincen  {
+        border:1px solid #999;
+        width:300px;
+        height:350px;
+        padding:4px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-decoration:none;
+        }
+     .minhead { 
+        float:top;
+        height:30px;
+        background-color:#333;
+        border:#999 1px solid;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:1.5em;
+        padding-top:7px;
+        margin-bottom:5px;
+        }
+     .tmidbot  {
+        border:1px solid #999;
+        height:350px;
+        padding:4px;
+        font-family:Arial, Helvetica, sans-serif;
+        }
+     .dontmidbot  {
+        border:1px solid #999;
+        height:auto;
+        padding:4px;
+        font-family:Arial, Helvetica, sans-serif;
+        }
+     .manlinks {
+        cursor:pointer;
+        color:#157DEC;
+        font-size:14px;
+        text-decoration:none;
+        spacing:2px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left:5px;
+        margin-right:5px;
+        }
+      .gsl {
+        cursor:pointer;
+        color:#F76541;
+        font-size:14px;
+        text-decoration:none;
+        spacing:2px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left:5px;
+        margin-right:5px;
+        }
+      .rlsb  {
+        border:1px solid #999;
+        height:auto;
+        width:500px;
+        padding:4px;
+        font-family:Arial, Helvetica, sans-serif;
+        }
+      .mapcen  {
+        border:1px solid #999;
+        width:400px;
+        height:auto;
+        padding:4px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-decoration:none;
+        }
+       .mapconall {
+          border:none;
+          margin-right:10%;
+          margin-left:25%;
+        }
+       .townmin { 
+        float:top;
+        height:30px;
+        background-color:#333;
+        border:#999 1px solid;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:1.5em;
+        padding-top:7px;
+        margin-bottom:5px;
+        margin-left:5%;
+        }
+       .skillcen  {
+        border:1px solid #999;
+	width:615px;
+        height:auto;
+        padding:4px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-decoration:none;
+		font-size:.8em;
+        }
+       .skillmin { 
+        float:top;
+        height:30px;
+        background-color:#333;
+        border:#999 1px solid;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:1.5em;
+        padding-top:7px;
+        margin-bottom:5px;
+        margin-left:5%;
+        }
+       .skillcenter {
+        margin:5%;
+        height:auto;
+        width:700px;
+        border:none;
+		font-family:Arial, Helvetica, sans-serif;
+        font-size:1.5em;
+        }
+      #skillcontainer {
+	    border-radius:15px 15px 0 0;
+        background-color:#111;
+		min-height:300px;
+		padding:5px;
+		font-family:verdana;
+		color:#d9e1f8;
+		width:800px;
+		margin:0 auto;
+		border:1px dashed white;
+		padding-left:10px;
+		padding-top:10px;
+		
+    }
+      .dtab {
+         padding: 5px;
+         border:1px solid #333;
+       }
+       .dtabcen {
+         border-color:#0a0909;
+         font-size:1em;
+		font-family:century gothic;
+         padding: 5px;
+         width:100%;
+       }
+       .donmincen  {
+        border:1px solid #999;
+        width:300px;
+        height:250px;
+        padding:4px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-decoration:none;
+        }
+      .fdi {
+		 background-color:#111;
+		 border:1px solid #999;
+		 font-family:Shruti;
+		 font-size:1em;
+		 color:#fff;
+	 }
+     .insk {
+		 border:1px solid #999;
+		 padding:4px;
+		 font-family:Arial, Helvetica, sans-serif;
+         font-decoration:none;
+		 width:100%;
+		 padding-left:3px;
+		 
+	 }
+	 .insktr{
+		 background-color:#222;
+		 border:0px solid #999;
+		 padding-left:3px;
+	 }
+     .skicenduo{
+            border:1px solid #999;
+             border:1px solid #999;
+		width:300px;
+        height:250px;
+        padding:4px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-decoration:none;
+		font-size:.8em;
+         }

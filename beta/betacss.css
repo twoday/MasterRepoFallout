@@ -1,0 +1,323 @@
+html, body {
+	height:98%;
+	margin:0;
+	padding:0;
+	}	
+body{
+	background-color:#111;
+	background-image:url(../fc-background.png);
+	height:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#d9e1f8;
+}
+#outer-box{
+	border:none;
+	width:99%;
+	height:100%;
+	padding:4px;
+	
+}
+#iconlisthold{
+	height:100%;
+	vertical-align:top;
+}
+#innerhold{
+	height:100%;
+	width:100%;
+}
+#userinfo{
+	height:100%;
+	width:99%;
+	border:none;
+	vertical-align:top;
+}
+.iconlist{
+	width:100%;
+	height:100%;
+	border:1px solid #333;
+	background-color:#111;
+}
+#interaction{
+	border:1px solid #333;
+	width:16%;
+	height:45%;
+	vertical-align:top;
+}
+#townactivity{
+	border:1px solid #333;
+	width:16%;
+	height:45%;
+	vertical-align:top;
+}
+#actiontimer{
+	border:1px solid #333;
+	width:100%;
+	height:45%;
+        font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#d9e1f8;
+        background-color:transparent;
+}
+#players{
+	border:1px solid #333;
+	height:50%;
+	vertical-align:top;
+}
+#chatback{
+	border:1px solid #333;
+	height:52%;
+	width:100%;
+}
+#chatlog{
+	overflow:auto;
+	height:320px;
+	width:100%;
+	min-height:100%;
+}
+#channels{
+	height:20px;
+	width:100%;
+	float:inherit;
+	text-align:center;
+}
+.chatmsg{
+	  width:99%;
+	  background-color:#0a0909;
+	  border:1px solid #333;
+	  height:25px;
+	  padding-top:1px;
+          padding-left:4px;
+          padding-bottom:4px;
+          vertical-align:top;
+          margin-top:4px;
+		  margin-left:2px;
+  }
+#chatmsg{
+	width:99%;
+background-color:#0a0909;
+border:1px solid #333;
+color:#d9e1f8;
+
+}
+#Submit{
+	  background-color:#111;
+	  font-weight:bold;
+	  font-family:Arial, Helvetica, sans-serif;
+	  font-size:13px;
+	  color:#2276f4;
+	  margin-top:5px;
+	  margin-right:2px;
+	  border:none;
+  }
+.clock{
+	color:#D9E1F8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+  .world {
+color:#d9e1f8;
+cursor:pointer;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+
+.guild {
+color:#4CC417;
+cursor:pointer;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+
+.help {
+color:#FFF380;
+cursor:pointer;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+
+.trade {
+color:#8D38C9;
+cursor:pointer;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+
+.tutorial {
+color:#43BFC7;
+cursor:pointer;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+.admin{
+color:#ea0606;
+cursor:pointer;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+.server{
+color:yellow;
+cursor:pointer;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+.StaffChat{
+color:#ADA96E;
+cursor:pointer;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+.mod{
+color:#065cea;
+cursor:pointer;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+.links{
+	color:#d9e1f8;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:13px;
+}
+#playhead{
+	float:top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+}
+#playlist{
+	float:top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	border:1px solid #333;
+	height:94%;
+	overflow:auto;
+}
+#townhead{
+	float:top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;	
+}
+#townactions{
+	float:top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	border:1px solid #333;
+	height:93%;
+	overflow:auto;
+}
+#interhead{
+	float:top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+        height:45%;
+}
+#interact{
+	float:top;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	border:1px solid #333;
+	height:93%;
+	overflow:auto;
+}
+
+.inven_menu_links{
+        color:#D9E1F8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+        text-align:left;
+        background-color:#111;
+        border:1px solid #1f1f1f;
+        padding:3px;
+        margin-bottom:2px;
+}
+
+.link{
+	cursor:pointer;
+	color:#157DEC;
+	font-size:14px;
+	text-decoration:none;
+	spacing:2px;
+	font-family:arial;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#inventory_popup{
+	position:absolute; 
+	color:White;
+	left:5%; 
+	top:5%; 
+	border:2px solid #1f1f1f; 
+	display:none; 
+	text-align:center; 
+	width:85%; 
+	height:85%; 
+	background-color:#0a0909;
+}
+
+#inventory_table{
+	border-collapse:collapse;
+	border:1px solid #1f1f1f;
+}
+#inventory_table td{
+	color:#D9E1F8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	border:1px solid #1f1f1f;
+	padding:3px 7px 2px 7px;
+}
+
+#map{
+	position:absolute; 
+	color:White;
+	left:25%; 
+	top:7%; 
+	border:2px solid #1f1f1f;  
+	display:none; 
+	text-align:center; 
+	width:500px; 
+	height:400px; 
+	background-color:#0a0909;
+}
+
+#special1{
+	overflow:auto;
+	height:360px;	
+}
+
+#timer2{
+	font-size:13px;
+	color:#d9e1f8;
+}
+
+#usermenu{
+	margin-left:5px;
+}
+#timer2{
+font-size:13px;
+color:#d9e1f8;
+}
+
+#txt{
+font-size:35px;
+color:White;
+border:0px;
+text-align:center;
+background-color:#0a0909;
+font-weight: bold;
+}

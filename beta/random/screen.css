@@ -1,0 +1,128 @@
+/* Resets */
+    ul {
+        padding:0;
+        margin:0 0 20px 0;
+        list-style:none;
+    }
+    h1, h2 {
+        padding:0;
+        margin:0 0 20px 0;
+        font-weight:normal;
+    }
+    p {
+        padding:0;
+        margin:0 0 20px 0;
+    }
+    
+	ul li {
+        padding:5px 0;
+    }
+    ul li input[type="text"], ul li input[type="password"] {
+        width:200px;
+    }
+	
+	textarea{
+		width:400px;
+		height:150px;
+	}
+	
+/* Links */
+   .links { 
+   text-decoration:none;
+   font-family:century gothic;
+   color:#FFF;
+   }
+   
+   .t-link {
+   text-decoration:none;
+   font-family:century gothic;
+   color:#F76541;
+   }
+   
+   .t-link2 {
+   text-decoration:none;
+   font-family:century gothic;
+   color:#F76541;
+   font-size:14px;
+   }
+    
+	a:hover {
+        text-decoration:underline;
+    }
+	
+    /* Headers */
+    h1 {
+        font-size:1.8em;
+    }
+    h2 {
+        font-size:1.4em;
+    }
+    .logo {
+        margin:0 0 10px 0;
+        padding:0;
+        width:200px;
+       
+    }
+    /* Containers */
+    body {
+	    border-radius:5px 5px 0 0;
+        background-color:#0a0909;
+      
+        font-size:0.8em;
+		font-family:century gothic;
+		
+    }
+    
+    header {
+       
+        padding:10px;
+        margin:0 auto 10px auto;
+    }
+    #container {
+	    border-radius:15px 15px 0 0;
+        background-color:#111;
+		min-height:75px;
+		padding:5px;
+		font-family:verdana;
+		color:#d9e1f8;
+		width:800px;
+		margin:0 auto;
+		border:1px dashed white;
+		padding-left:10px;
+		padding-top:10px;
+    }
+    footer {
+	    background-color:#111;
+        border-radius:0 0 15px 15px;
+		width:815px;
+		height:50px;
+		margin:0 auto;
+		border:1px dashed white;
+                color:#999;
+    }
+    /* Misc */
+    .clear {
+        clear:both;
+    }
+	
+     .conall {
+          border:none;
+          margin-right:10%;
+          margin-left:7%;
+        }
+     .concenter {
+        margin:5%;
+        height:75px;
+        width:600px;
+        border:none;
+        }
+     .manlinks {
+        cursor:pointer;
+        color:#157DEC;
+        font-size:14px;
+        text-decoration:none;
+        spacing:2px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left:5px;
+        margin-right:5px;
+        }
