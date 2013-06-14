@@ -1,0 +1,4 @@
+[13-May-2013 09:08:01 America/New_York] PHP Warning:  include(core/init.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/fallou/public_html/staff/staff_rules.php on line 2
+[13-May-2013 09:08:01 America/New_York] PHP Warning:  include(core/init.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/fallou/public_html/staff/staff_rules.php on line 2
+[13-May-2013 09:08:01 America/New_York] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'core/init.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/fallou/public_html/staff/staff_rules.php on line 2
+[13-May-2013 09:08:01 America/New_York] PHP Fatal error:  Call to undefined function protect_page() in /home/fallou/public_html/staff/staff_rules.php on line 3
